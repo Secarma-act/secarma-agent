@@ -56,7 +56,7 @@ if [ -z "$version" ]; then
 fi
 log "version: $version"
 
-pkg_url="${SECARMA_PKG_URL:-https://github.com/${REPO}/releases/download/${version}/secarma-agent-${version}.pkg}"
+pkg_url="${SECARMA_PKG_URL:-https://github.com/${REPO}/releases/download/v${version}/secarma-agent-${version}.pkg}"
 
 # --- Download -------------------------------------------------------------------
 log "downloading $pkg_url"
