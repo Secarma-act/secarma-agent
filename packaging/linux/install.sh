@@ -69,7 +69,7 @@ if [ -z "$version" ]; then
 fi
 log "version: $version, arch: $arch"
 
-bin_url="${SECARMA_BINARY_URL:-https://github.com/${REPO}/releases/download/${version}/secarma-agent-${version}-linux-${arch}}"
+bin_url="${SECARMA_BINARY_URL:-https://github.com/${REPO}/releases/download/v${version}/secarma-agent-${version}-linux-${arch}}"
 
 # --- Download + verify ----------------------------------------------------------
 log "downloading $bin_url"
